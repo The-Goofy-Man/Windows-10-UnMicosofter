@@ -11,4 +11,4 @@ and type `R` and enter, the script will now run
 * **note:** this will only work if you:
 * Downloaded it (the PS1 file) into your downloads folder.
 * Run this as an admnistator
-* have winget (Preincluded on all windows versions past October 2018 Update (1809) )
+* have winget (Preincluded on all windows installa past October 2018 Update (1809) )
