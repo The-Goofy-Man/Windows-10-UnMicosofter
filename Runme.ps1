@@ -62,13 +62,15 @@ Write-Host "Misc:"
 Write-Host "BambuStudio [1]"
 Write-Host "PrusaSlicer [2]" 
 Write-Host "OrcaSlicer  [3]"
+Write-Host "Chocolatey  [4]"
 $UT = Read-Host "Please enter your choice, separate options with ',' like this '1,2' :   "
 $UT_Split = $UT -split ','
 foreach ($util in $UT_Split) {
     switch ($util.Trim()) {
-        "1" { $appIds += "Bambulab.Bambustudio" }
-        "2" { $appIds += "Prusa3D.PrusaSlicer" }
-        "3" { $appIds += "SoftFever.OrcaSlicer" }
+        "1" { $appIds += "Bambulab.Bambustudio"  }
+        "2" { $appIds += "Prusa3D.PrusaSlicer"   }
+        "3" { $appIds += "SoftFever.OrcaSlicer"  }
+        "4" { $appIds += "Chocolatey.Chocolatey" }
     }
 }
 Clear-Host
